@@ -8,8 +8,8 @@ const NavBar = () => {
       <>
         <header className="navigation">
           <div className="container">
-            <nav className="nav">
-              <ul className="nav-logo">
+            <nav className="nav__wrap">
+              <ul className="nav__logo">
                 <li>
                   {' '}
                   <a
@@ -41,7 +41,7 @@ const NavBar = () => {
                 <li className="navPages__item">My library</li>
               </ul>
 
-              <ul className="nav-dark">
+              <ul className="nav__dark">
                 <li></li>
                 <li>
                   <NavDark />

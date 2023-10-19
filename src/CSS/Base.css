@@ -1,6 +1,6 @@
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin: 0 auto;
 }
 
@@ -41,3 +41,12 @@ ul {
   margin: 0;
   list-style: none;
 }
+
+/* Зброс зазора */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /* margin: 0px;
+  padding: 0px; */
+}/*# sourceMappingURL=base.css.map */

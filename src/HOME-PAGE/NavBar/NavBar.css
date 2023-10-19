@@ -7,20 +7,20 @@
      background-color: var(--background);
 }
 
-.nav {
+.nav__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-logo {
+.nav__logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .Nav__logo-text a {
-    color:  var(--title-color);
+    color:  var(--accent-color);
     margin-left: 10px;
 /* text-align: center; */
 font-family: Roboto;
@@ -34,6 +34,11 @@ text-decoration: none;
 
 .navPages {
     display: flex;
+}
+
+.navPages__item:hover,
+.navPages__item:focus {
+    color: var(--accent-color);
 }
 
 .navPages__item {
@@ -52,6 +57,6 @@ text-transform: uppercase;
     margin-right: 0;
 }
 
-.nav-dark {
+.nav__dark {
     display: flex;
 }
