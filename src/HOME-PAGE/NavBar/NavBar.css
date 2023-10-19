@@ -38,6 +38,12 @@ font-weight: 400;
 text-decoration: none;
 }
 
+.light-theme  a {
+  /* background-color: var(--white-color); */
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
+}
+
 .navPages {
     display: flex;
 }
@@ -57,6 +63,12 @@ font-size: 14px;
 font-weight: 500;
 list-style: none;
 text-transform: uppercase;
+}
+
+.light-theme  .navPages__item {
+  /* background-color: var(--white-color); */
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .navPages__item:last-child {

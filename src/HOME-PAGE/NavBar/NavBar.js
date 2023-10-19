@@ -39,7 +39,9 @@ const NavBar = () => {
               </ul>
 
               <ul className="navPages">
-                <li className="navPages__item">Home</li>
+                <li className="navPages__item">
+                  Home
+                </li>
                 <li className="navPages__item">Catalog</li>
                 <li className="navPages__item">My library</li>
               </ul>
