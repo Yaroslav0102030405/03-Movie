@@ -1,0 +1,57 @@
+@import './../../CSS/Base.css';
+@import '../../CSS/Variables.css';
+
+.navigation {
+    padding-top: 6px;
+    padding-bottom: 6px;
+     background-color: var(--background);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav__logo-text a {
+    color:  var(--title-color);
+    margin-left: 10px;
+/* text-align: center; */
+font-family: Roboto;
+font-size: 24px;
+
+/* font-weight: 20.83; */
+font-weight: 400;
+/* line-height: normal; */
+text-decoration: none;
+}
+
+.navPages {
+    display: flex;
+}
+
+.navPages__item {
+    color: var(--text-color);
+  margin-right: 40px;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+/* font-weight: 35.71; */
+font-weight: 500;
+list-style: none;
+text-transform: uppercase;
+}
+
+.navPages__item:last-child {
+    margin-right: 0;
+}
+
+.nav-dark {
+    display: flex;
+}
