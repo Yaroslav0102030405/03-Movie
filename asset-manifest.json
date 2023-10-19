@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/movie-02/static/css/main.3d3db05d.css",
+    "main.js": "/movie-02/static/js/main.1abdf3df.js",
+    "static/media/nav-logo.svg": "/movie-02/static/media/nav-logo.b4bba7c2dfec9211a4eb65f66e193bca.svg",
+    "static/media/Sun.svg": "/movie-02/static/media/Sun.aef8f60b836976321d24aa4163dbfb7f.svg",
+    "static/media/Moon.svg": "/movie-02/static/media/Moon.af99a536ce1d19f741275b8554beaa63.svg",
+    "index.html": "/movie-02/index.html",
+    "main.3d3db05d.css.map": "/movie-02/static/css/main.3d3db05d.css.map",
+    "main.1abdf3df.js.map": "/movie-02/static/js/main.1abdf3df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3db05d.css",
+    "static/js/main.1abdf3df.js"
+  ]
+}
