@@ -1,9 +1,12 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import './NavBar.css'
 import { ReactComponent as NavLogo } from './nav-logo.svg';
-import { ReactComponent as NavDark } from "./nav-dark.svg";
+
+import DarkMode from "../../components/DarkMode/DarlMode";
+import { HiSearch } from 'react-icons/hi';
 
 const NavBar = () => {
+  const [toggle, setToggle] = useState(true)
     return (
       <>
         <header className="navigation">
@@ -41,12 +44,17 @@ const NavBar = () => {
                 <li className="navPages__item">My library</li>
               </ul>
 
-              <ul className="nav__dark">
-                <li></li>
-                <li>
-                  <NavDark />
-                </li>
-              </ul>
+              <div className={toggle ? '' : 'navBarColor'}>
+                <ul className="nav__dark">
+                  <li>
+                    <input type="text" placeholder="Search movies" />
+                    <HiSearch />
+                  </li>
+                  <li>
+                    <DarkMode />
+                  </li>
+                </ul>
+              </div>
             </nav>
           </div>
         </header>

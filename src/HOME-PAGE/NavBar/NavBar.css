@@ -7,6 +7,12 @@
      background-color: var(--background);
 }
 
+.light-theme .navigation {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
+}
+
 .nav__wrap {
     display: flex;
     justify-content: space-between;

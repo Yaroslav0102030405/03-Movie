@@ -1,6 +1,21 @@
 :root {
-    --background: #000;
-    --title-color: #FFF;
-    --text-color: #B7B7B7;
-    --accent-color: #F87719;
+  --background: #000;
+  --title-color: #fff;
+  --text-color: #b7b7b7;
+  --accent-color: #f87719;
+
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+.light-theme {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-theme {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: all 0.3s ease-in-out;
 }
