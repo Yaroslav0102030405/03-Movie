@@ -50,3 +50,7 @@ img {
   /* margin: 0px;
   padding: 0px; */
 }/*# sourceMappingURL=base.css.map */
+
+a {
+  text-decoration: none;
+}

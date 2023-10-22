@@ -2,11 +2,11 @@ import React from "react";
 import NavBar from "../HOME-PAGE/NavBar/NavBar";
 
 const myLibrary = () => {
-    return ( 
-        <>
-            <NavBar />kjjk
-        </>
-     );
+    return (
+      <>
+        <NavBar />
+      </>
+    );
 }
  
 export default myLibrary;
