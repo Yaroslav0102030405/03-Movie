@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 // import './App.css';
 // import NavBar from "./HOME-PAGE/NavBar/NavBar";
-import React, {lazy, Suspense} from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-const Home = lazy(() => import('./HOME-PAGE/NavBar/Home/Home'),);
-const Catalog = lazy(() => import('./CATALOG-PAGE/Catalog'),);
+const Home = lazy(() => import('./HOME-PAGE/NavBar/Home/Home'));
+const Catalog = lazy(() => import('./CATALOG-PAGE/Catalog'));
 const MyLibrary = lazy(() => import('./MY-LIBRARY-PAGE/myLibrary'));
 const NotFoundPage = lazy(() => import('./NOT-FOUND-PAGE/NotFoundPage'));
 
@@ -15,8 +15,6 @@ const NotFoundPage = lazy(() => import('./NOT-FOUND-PAGE/NotFoundPage'));
 // import NotFoundPage from './NOT-FOUND-PAGE/NotFoundPage';
 
 function App() {
-
-
   return (
     <div className="App">
       {/* <NavBar /> */}
