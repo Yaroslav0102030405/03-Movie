@@ -1,0 +1,10 @@
+@import './../../CSS/Base.css';
+@import './../../CSS/Variables.css';
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* column-gap: 15px; */
+    gap: 32px 15px;
+}

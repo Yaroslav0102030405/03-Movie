@@ -1,0 +1,28 @@
+@import './../../CSS/Base.css';
+@import './../../CSS/Variables.css';
+
+/* .galery {
+    display: flex;
+    flex-wrap: wrap;
+   
+} */
+
+/* .galery__item {
+    display: flex;
+} */
+
+.galery__image {
+    @media screen and (min-width: 1280px) {
+        width: 395px;
+        border-radius: 5px;
+        /* margin-right: 10px; */
+    }
+}
+
+
+    
+/* .galery__image {
+     @media screen and (min-width: 768px) {
+    width: 224px;
+}
+} */

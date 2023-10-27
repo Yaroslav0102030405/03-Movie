@@ -1,0 +1,6 @@
+.backround__image {
+        background-image: linear-gradient( 86.77deg, #111111 30.38%, rgba(17, 17, 17, 0) 65.61% ), url(https://image.tmdb.org/t/p/original//eF6pkcpzxDCaQnJhaRlKdhhQebB.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
