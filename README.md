@@ -72,3 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 API_URL = 'https://api.themoviedb.org/3/movie/popular?api_key=bcc4ff10c2939665232d75d8bf0ec093';
 API_IMG="https://image.tmdb.org/t/p/w500/"
 API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=bcc4ff10c2939665232d75d8bf0ec093&query"
+
+Мой ключ dca6039011122855ab691a23bc74a542
+
+const API_KEY = 'dca6039011122855ab691a23bc74a542'
+
+Ключ доступа к API
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkY2E2MDM5MDExMTIyODU1YWI2OTFhMjNiYzc0YTU0MiIsInN1YiI6IjY0ZmNlNDRlNmEyMjI3MDBlMGYwODE3YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rRj16gv_ucIMXCMV3QCUS1cXCaWFJLAJyCpkt_ZNObk
+
+https://api.themoviedb.org/3/movie/550?api_key=dca6039011122855ab691a23bc74a542

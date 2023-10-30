@@ -6,7 +6,8 @@ import './Movie.css';
 // const API_SEARCH =
 //   'https://api.themoviedb.org/3/search/movie?api_key=bcc4ff10c2939665232d75d8bf0ec093&page=1?_limit=5';
 const API_URL =
-  'https://api.themoviedb.org/3/movie/popular?api_key=bcc4ff10c2939665232d75d8bf0ec093&language=uk&page=1';
+  'https://api.themoviedb.org/3/movie/popular?api_key=dca6039011122855ab691a23bc74a542&language=uk&page=1';
+ 
 
 const Movie = () => {
     const [movies, setMovies] = useState([])
