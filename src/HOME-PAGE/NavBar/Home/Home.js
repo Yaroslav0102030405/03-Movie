@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavBar from "../NavBar";
 import Hero from "../../Hero/Hero";
 import Movie from "../../Movie/Movie";
+// import Backround from "../../Hero/Background/Backround";
 
 const Home = () => {
   // const [movies, setMovies] = useState([])
@@ -9,7 +10,9 @@ const Home = () => {
       <>
         <NavBar />
         <Hero />
+        {/* <Backround /> */}
         <Movie />
+      
       </>
     );
 }

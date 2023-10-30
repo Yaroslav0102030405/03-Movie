@@ -21,17 +21,17 @@ const MovieBox = ({
             src={API_IMG + poster_path}
           ></img>
         </li>
-        {/* <li>
-              <h1>{title.slice(0, 30)}</h1>
+        <li>
+              <h1>{title.slice(0, 20)}</h1>
             </li>
             <li>
               {' '}
-              <p>{overview.slice(0, 70)}</p>
+              <p>{overview.slice(0, 20)}</p>
             </li>
             <li>
               <p>{vote_average}</p>
             </li>
-            <li>
+            {/* <li>
               {' '}
               <p>{release_date}</p>
             </li> */}
