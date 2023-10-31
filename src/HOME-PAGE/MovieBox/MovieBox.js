@@ -1,7 +1,13 @@
 import React from "react";
 import './MovieBox.css'
 
-const API_IMG = 'https://image.tmdb.org/t/p/w500/';
+const API_IMG = 'https://image.tmdb.org/t/p/original/';
+
+  // const defaultPath = 'https://api.themoviedb.org/3/movie'; //popular';
+  // const imagePath = 'https://image.tmdb.org/t/p/w500/';
+  // const API_KEY = 'dca6039011122855ab691a23bc74a542';
+  // const language = 'uk';
+  // const _url = `${defaultPath}/${url}?api_key=${API_KEY}&language=${language}&page=1`;
 
 const MovieBox = ({
   title,
@@ -12,6 +18,8 @@ const MovieBox = ({
   backdrop_path,
  
 }) => {
+
+
   return (
     <>
       <ul>
@@ -21,12 +29,12 @@ const MovieBox = ({
         <li>
           <h1>{title.slice(0, 20)}</h1>
         </li>
-        <li>
+        {/* <li>
           {' '}
           <p>{overview.slice(0, 20)}</p>
-        </li>
+        </li> */}
         <li>
-          <p>{vote_average}</p>
+          <p>{Number(vote_average).toFixed(1)}</p>
         </li>
         {/* <li>
               {' '}

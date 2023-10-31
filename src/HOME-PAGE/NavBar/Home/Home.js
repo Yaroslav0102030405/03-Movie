@@ -2,21 +2,21 @@ import React, { useState } from "react";
 import NavBar from "../NavBar";
 import Hero from "../../Hero/Hero";
 import Movie from "../../Movie/Movie";
-// import Backround from "../../Hero/Background/Backround";
+import Backround from './Backround/Backround'
 
-import { API_KEY } from "../../../API-KEY/ApiKey";
+// const API_IMG = 'https://image.tmdb.org/t/p/w500/';
 
+// import server from "../../../API-KEY/Server";
 const Home = () => {
   // const [movies, setMovies] = useState([])
-    return (
-      <>
-        <NavBar />
-        <Hero />
-        {/* <Backround /> */}
-        <Movie />
-      
-      </>
-    );
-}
+  return (
+    <>
+      <NavBar />
+      <Hero />
+      <Backround />
+      <Movie />
+    </>
+  );
+};
  
 export default Home;
