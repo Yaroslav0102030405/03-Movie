@@ -7,7 +7,7 @@ export default function server( url, settings = {}) {
     const language = 'uk'
     const _url = `${defaultPath}/${url}?api_key=${API_KEY}&language=${language}&page=1`;
 
-    return fetch(_url).then(res => {
+    return fetch(url).then(res => {
         return res.json();
     })
 }

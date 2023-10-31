@@ -1,7 +1,8 @@
 import React from "react";
 import './MovieBox.css'
+// import server from "../../API-KEY/Server";
 
-const API_IMG = 'https://image.tmdb.org/t/p/original/';
+const API_IMG = 'https://image.tmdb.org/t/p/w1280/';
 
   // const defaultPath = 'https://api.themoviedb.org/3/movie'; //popular';
   // const imagePath = 'https://image.tmdb.org/t/p/w500/';

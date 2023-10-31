@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import NavBar from "../NavBar";
 import Hero from "../../Hero/Hero";
 import Movie from "../../Movie/Movie";
-import Backround from './Backround/Backround'
+// import Backround from './Backround/Backround'
 
 // const API_IMG = 'https://image.tmdb.org/t/p/w500/';
 
@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <NavBar />
       <Hero />
-      <Backround />
+      {/* <Backround /> */}
       <Movie />
     </>
   );

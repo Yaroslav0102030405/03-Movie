@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import MovieBox from "../MovieBox/MovieBox";
 import './Movie.css';
+// import server from "../../API-KEY/Server";
 
 const API_URL =
   'https://api.themoviedb.org/3/movie/popular?api_key=dca6039011122855ab691a23bc74a542&language=uk&page=1';
-
- 
- 
 
 const Movie = () => {
     const [movies, setMovies] = useState([])
