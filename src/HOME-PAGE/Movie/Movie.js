@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import MovieBox from "../MovieBox/MovieBox";
 import './Movie.css';
-import axios from "axios";
+// import axios from "axios";
 // import server from "../../API-KEY/Server";
+// import { styled } from '@mui/material/styles';
 import { Container, Pagination, Stack } from '@mui/material'
+// import { StylesProvider } from '@material-ui/styles';
+import Box from '@mui/material/Box';
 
 const API_URL =
   'https://api.themoviedb.org/3/movie/popular?api_key=dca6039011122855ab691a23bc74a542&language=uk';
@@ -50,12 +53,13 @@ const Movie = () => {
                 //   page={page}
                 //   onChange={(_, num) => setPage(num)}
                 // />
-                <Pagination
-                  count={pageQty}
-                  page={page}
-                  onChange={(_, num) => setPage(num)}
-                  sx={{ marginY: 0, marginX: 'auto' }}
-                />
+                <Box sx={{ marginY: 0, marginX: 'auto' }}>
+                  <Pagination
+                    count={pageQty}
+                    page={page}
+                    onChange={(_, num) => setPage(num)}
+                  />
+                </Box>
               )}
             </Stack>
           </Container>
