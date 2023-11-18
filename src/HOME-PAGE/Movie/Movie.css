@@ -7,4 +7,14 @@
 
     /* column-gap: 15px; */
     gap: 32px 15px;
+    padding-top: 3px;
 }
+/* 
+.dark-theme .Pagination  {
+ background-color: var(--black-color);
+  color: var(--white-color);
+  transition: all 0.3s ease-in-out;
+} */
+
+
+

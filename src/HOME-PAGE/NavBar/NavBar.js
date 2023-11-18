@@ -36,14 +36,14 @@ const NavBar = () => {
 
             {/* <div className={toggle ? '' : 'navBarColor'}> */}
             <ul className="nav__dark">
-              <li>
+              {/* <li>
                 <input
                   id="nav__input"
                   type="text"
                   placeholder="Search movies"
                 />
                 <HiSearch fontSize={21} color="black" className="serch" />
-              </li>
+              </li> */}
               <li>
                 <DarkMode />
               </li>
