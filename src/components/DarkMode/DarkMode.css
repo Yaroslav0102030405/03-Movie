@@ -1,14 +1,12 @@
 @import './../../CSS/Variables.css';
 
 .dark_mode {
-  /* display: flex; */
-  /* justify-content: space-between; */
   margin-top: -20px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: 40px;
-  }
+  } */
 
   /* @media screen and (min-width: 1200px) {
     margin-right: 199px;
@@ -30,9 +28,9 @@
   cursor: pointer;
   transition: 0.3s;
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 50px;
-  }
+  } */
 }
 .dark_mode_label:after {
   content: '';

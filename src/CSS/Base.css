@@ -1,14 +1,29 @@
 .container {
+  max-width: 1280px;
   padding-left: 32px;
   padding-right: 32px;
   margin: 0 auto;
 }
 
-   @media screen and (min-width: 1280px) {
+@media screen and (min-width: 360px) {
   .container {
-   width: 1280px;
+    width: 360px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+
 
 body {
   margin: 0;
@@ -35,7 +50,6 @@ p {
   margin: 0; */
 }
 
-
 ul {
   padding: 0;
   margin: 0;
@@ -49,7 +63,7 @@ img {
   height: auto;
   /* margin: 0px;
   padding: 0px; */
-}/*# sourceMappingURL=base.css.map */
+} /*# sourceMappingURL=base.css.map */
 
 a {
   text-decoration: none;

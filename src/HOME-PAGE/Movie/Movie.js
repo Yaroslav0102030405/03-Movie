@@ -46,7 +46,7 @@ const Movie = () => {
       // .then(res => res.json())
       .then(({ data }) => {
         console.log(data);
-        setMovies(data.results.slice(0, 15));
+        setMovies(data.results.slice(0, 18));
         setPageQty(data.total_pages);
 
         // if (data.total_pages < page) {
