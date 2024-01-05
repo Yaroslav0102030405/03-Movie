@@ -23,14 +23,38 @@
   }
 }
 
-
-
 body {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
 
-    cursor:url("../image/cursor-4.png"), auto;
+  cursor: url('../image/cursor-4.png'), auto;
+}
+
+/* add scrollbar */
+.window {
+  overflow: auto;
+  /* border: 1px solid #fff; */
+  border-radius: 5px 0 0 5px;
+}
+
+::-webkit-scrollbar {
+  border: 1px solid black;
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(250, 163, 11, 0.9192927170868347) 0%,
+    rgba(248, 245, 13, 1) 16%,
+    rgba(240, 109, 22, 0.9697128851540616) 57%
+  );
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #fa7e1e;
+  border: 2px solid #fff;
 }
 
 h1,
