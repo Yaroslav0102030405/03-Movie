@@ -2,6 +2,7 @@
   "name": "movie-02",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Yaroslav0102030405.github.io/movie-02",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -26,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "deploy -p"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
