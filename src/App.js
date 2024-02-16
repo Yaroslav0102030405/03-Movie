@@ -20,7 +20,7 @@ function App() {
       {/* <NavBar /> */}
       <Suspense fallback={<p>Loading...</p>}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/index.html" element={<Home />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/mylibrare" element={<MyLibrary />} />
           <Route path="*" element={<NotFoundPage />} />
